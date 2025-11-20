@@ -6,7 +6,6 @@ public class IntArray {
     private int[] array;
 
     private IntArray() {
-        // private constructor
     }
 
     public int[] getArray() {
@@ -35,7 +34,7 @@ public class IntArray {
     }
 
     public void setArray(int[] array) {
-        this.array = array != null ? array.clone() : new int[0]; // сохраняем копию
+        this.array = array != null ? array.clone() : new int[0]; 
     }
 
     public int getLength() {
